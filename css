@@ -1,0 +1,36 @@
+* {
+    animation: move2 10s linear; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position:static;
+}
+.container{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.btn{
+    background-color: rgb(173, 177, 184);
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+.result{
+    background-color: rgb(199, 195, 212);
+    height: 20vh;
+    width: auto;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    animation:  move 3s, linear;
+}
+  @keyframes move{
+    to{font-size: 26px;}
+} 
+@keyframes move2{
+    to{background-color: rgb(153, 155, 229);}
+    to{background-image: url(./image2.jpeg);}
+} 
